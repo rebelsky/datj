@@ -1,0 +1,35 @@
+#!/usr/bin/env perl
+
+# Process lines from the database file (read from stdin)
+
+while (<STDIN>) {
+  chomp;
+  s/"//g;
+  s/_([^_\t]*)_/<em>$1<\/em>/g;
+  my ($song,$type,$composer,$version,$posted,$performed,$url,$length,$danika,$jeb,$tags,$notes) = split(/\t/);
+
+  print "<p>\n";
+  print "  <q><a href='$url'>$song</a></q>";
+  if ($composer) { print " ($composer)"; }
+  if ($version) { print " <em>$version</em>"; }
+  if ($tags) { print " [$tags]"; }
+  if ($length) { print " ($length)"; }
+  print "\n</p>\n";
+  if ($danika || $jeb || $notes || $posted) {
+    print "  <blockquote>\n";
+    if ($danika || $jeb) {
+      print "    <p>\n";
+      if ($danika) { print "     Danika: $danika.\n" };
+      if ($jeb) { print "     Jeb: $jeb.\n" };
+      print "    </p>\n";
+    }
+    if ($notes) {
+      print "    <p>$notes</p>\n";
+    }
+    if ($posted) {
+      print "    <p><small>Video posted $posted</small></p>";
+    }
+    print "  </blockquote>\n";
+  } 
+} # while
+

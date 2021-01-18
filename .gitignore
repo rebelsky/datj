@@ -1,0 +1,27 @@
+# Generated files
+*.html
+*.ps
+*.pdf
+
+# Temporary files
+*~
+*.swp
+*.bak
+
+# C cruft
+*.i
+*.s
+*.o
+*.a
+*.so
+
+# Etc.
+current.md
+
+# Weird Macintosh file
+.DS_Store
+
+# Directories that I use for development
+sandbox
+deleted
+tmp
