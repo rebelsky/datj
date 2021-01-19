@@ -13,3 +13,6 @@ _Random things I found while wandering the Web._
     "college dropout".  But most of it is good advice about touring,
     Kickstarter, and such.  I wonder what an updated interview would
     be like?  (StageIt, Patreon, ....)
+
+["Time for a Change" on _Songs for Freedom_](https://abolitiontour.bandcamp.com/album/songs-for-freedom)
+  : Part of a charity compilation on Bandcamp.
