@@ -24,8 +24,9 @@ not notice them.
 
 If you'd like,  you can download [the raw data](youtube.txt).
 
-Note that videos marked as "Official" come from the Danika and the Jeb
-channel on YouTube.  The others are from a variety of other channels.
+Note that videos marked as "Official" come from [the Danika and the
+Jeb channel on YouTube](https://www.youtube.com/c/DanikaandtheJeb).
+The others are from a variety of other channels.
 
 Originals
 ---------
@@ -64,26 +65,32 @@ Playlists
 Instruments
 -----------
 
-Green Electric
-  : A green, Strat-shaped, electric guitar.  Not sure the make.
-
 Guild 12-String
   : Danika's father's Guild Twelve-String, manufactured in 1976 or so.
 
 Nord Keyboard
   : The Nord Electro 4 portable electric keyboard that Danika often plays in the StageIt shows.
 
-Stonebridge Custom Guitar
-  : Danika and Jeb both have custom guitars from [Stonebridge
+Stonebridge Guitar
+  : Danika and Jeb both have guitars from [Stonebridge
     guitars](https://www.stonebridgeguitars.com).  Danika's is dark
-    brown with the lyrics "Music is what feeling sounds like" on the 
-    fretboard.  Jebs looks a lot like a fancier Taylor cutaway with
-    really nice decorations on the fretboard..
+    brown with the lyrics "Music is what feeling sounds like" on
+    the fretboard.  Jebs looks a lot like a fancier Taylor cutaway
+    with really nice decorations on the fretboard.  I had thought
+    they were custom, but Jeb's recent story about them makes that 
+    less clear.
+
+Strat
+  : A green, Strat-shaped, electric guitar.  I wasn't sure of the make
+    because I didn't see the traditional script "Fender" on the headstock,
+    but Jeb said that it's a Fender at the start of the 2021-01-19
+    show.  So it's definitely a Strat.
 
 Taylor Guitar
-  : The Taylor acoustic/electric cutaways that Jeb and Danika seem to
-    have played for many years.  Danika also seems to have a Taylor
-    without a cutaway.
+  : The Taylor acoustic/electric cutaways that Jeb and Danika played 
+    for many years.  Danika also seems to have had a Taylor without
+    a cutaway.  I think Jeb said that he played a 314CE and Danika
+    played a 614CE.  He may have also played a 414CE.
 
 Telecaster
   : Jeb's beautiful black [Fender John 5 Signature
