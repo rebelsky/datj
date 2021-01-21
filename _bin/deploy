@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo "Synching primary files (html, text)."
+time rsync -lptgoDvz *.{html,txt} rebelsky.cs.grinnell.edu:/home/rebelsky/public_html/datj
+echo "Synching css."
+time rsync -avz _css rebelsky.cs.grinnell.edu:/home/rebelsky/public_html/datj
+echo "Done"
+
