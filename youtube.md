@@ -22,7 +22,9 @@ Feel free to [email me](mailto:rebelsky@grinnell.edu?subject=Danika+and+the+Jeb+
 [Hypothes.is annotations](https://hypothes.is) on the page, although I may
 not notice them.
 
-If you'd like,  you can download [the raw data](youtube.txt).
+If you'd like,  you can download [the raw data](youtube.txt).  And if
+you'd like to see the date on the Web page in a different format, let
+me know; it shouldn't take long.
 
 Note that videos marked as "Official" come from [the Danika and the
 Jeb channel on YouTube](https://www.youtube.com/c/DanikaandtheJeb).
