@@ -120,19 +120,16 @@ Yamaha Keyboard
 
 ### Work left
 
-_Some of the things left to do on the database._
+_Some of the low-priority things left to do on the database._
 
-[ ] Behind-the-scenes videos.  I have a list of them.  But I haven't
-transfered the data to the database.
-
-[ ] CDBaby videos.  CDBaby posted songs from three albums.  I
+* CDBaby videos.  CDBaby posted songs from three albums.  I
 included a few of them in the database, as well as the full playlists.
 I suppose that I should add the rest.
 
-[ ] Gather missing data, particularly the ids of people who posted
+* Gather missing data, particularly the ids of people who posted
 videos.  The decision to include the posters of videos came after
 I'd assembled most of the database.  Hence, many videos lack that
 information.
 
-[ ] Look for other videos.  I'm sure that there are more out there.
+* Look for other videos.  I'm sure that there are more out there.
 Perhaps others will send them along.
