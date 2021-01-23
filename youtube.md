@@ -54,18 +54,24 @@ Shows
 
 !!grep "	Show	" youtube.txt | sed -e 's/"//g' | sort -t$'\t' -k1,5 | _bin/process
 
-Misc
-----
-
-!!grep "	Misc	" youtube.txt | sed -e 's/"//g' | sort -t$'\t' -k1,5 | _bin/process
-
-_There are also four or so "Preshow" videos for The Listening Room in
-Port Clinton.  They contain neither music nor pictures of D&tJ._
-
 Playlists
 ---------
 
 !!grep "	Playlist	" youtube.txt | sed -e 's/"//g' | sort -t$'\t' -k1,5 | _bin/process
+
+Behind the Scenes etc.
+----------------------
+
+!!grep "	Misc	" youtube.txt | sed -e 's/"//g' | sort -t$'\t' -k1,5 | _bin/process
+
+Invites to Shows
+----------------
+
+!!grep "	Invites	" youtube.txt | sed -e 's/"//g' | sort -t$'\t' -k1,5 | _bin/process
+
+
+_There are also four or so "Preshow" videos for The Listening Room in
+Port Clinton.  They contain neither music nor pictures of D&tJ._
 
 ---
 
