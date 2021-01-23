@@ -6,14 +6,21 @@ while (<STDIN>) {
   chomp;
   s/"//g;
   s/_([^_\t]*)_/<em>$1<\/em>/g;
-  my ($song,$type,$composer,$version,$posted,$performed,$url,$length,$danika,$jeb,$tags,$notes) = split(/\t/);
+  my ($song,$type,$composer,$version,$posted,$performed,$url,$length,$danika,$jeb,$tags,$poster,$notes) = split(/\t/);
+  my $official = ($tags =~ m/^Official/) ;
 
   print "<p>\n";
-  print "  <q><a href='$url'>$song</a></q>";
+  if ($official) { print "<b>"; }
+  if ($song =~ m/^<em>/) {
+    print "  <a href='$url'>$song</a>";
+  } else {
+    print "  <q><a href='$url'>$song</a></q>";
+  }
   if ($composer) { print " ($composer)"; }
   if ($version) { print " <em>$version</em>"; }
   if ($tags) { print " [$tags]"; }
   if ($length) { print " ($length)"; }
+  if ($official) { print "</b>"; }
   print "\n</p>\n";
   if ($danika || $jeb || $notes || $posted) {
     print "  <blockquote>\n";
@@ -27,7 +34,9 @@ while (<STDIN>) {
       print "    <p>$notes</p>\n";
     }
     if ($posted) {
-      print "    <p><small>Video posted $posted</small></p>";
+      print "    <p><small>Video posted $posted";
+      if ($poster) { print " by $poster"; }
+      print ".</small></p>";
     }
     print "  </blockquote>\n";
   } 
